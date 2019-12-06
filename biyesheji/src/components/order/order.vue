@@ -1,6 +1,6 @@
 <template>
     <div class="order">
-        <img src="../../assets/xuhao.png" alt="" style="width:180px;">
+        <img src="../../assets/goods/xuhao.png" alt="" style="width:180px;">
         <div class="address">
             <div class="address1">
                 <div class="ad">
@@ -38,7 +38,7 @@
                 
             </div>
         </div>
-        <img src="../../assets/xuhao2.png" alt=""  style="width:200px;padding:30px 0;">
+        <img src="../../assets/goods/xuhao2.png" alt=""  style="width:200px;padding:30px 0;">
         <el-table :data="tableData" style="width: 100%;" align='center'>
             <el-table-column prop="date" label="商品" width="190" align='center'>
                 <template slot-scope="scope">
@@ -63,7 +63,7 @@ export default {
         return{
             tableData:[
                 {
-                    img:require('../../assets/list2.jpg'),
+                    img:require('../../assets/goods/list2.jpg'),
                     name:'港风小清新英文刺绣卫衣',
                     color:'红色',
                     size:'xl',
@@ -71,7 +71,7 @@ export default {
                     price:'1399.00'
                 },
                 {
-                    img:require('../../assets/list2.jpg'),
+                    img:require('../../assets/goods/list2.jpg'),
                     name:'港风小清新英文刺绣卫衣',
                     color:'红色',
                     size:'xl',

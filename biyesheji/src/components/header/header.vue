@@ -22,7 +22,7 @@
                                     </router-link>
                                 </el-menu-item>
                                 <el-menu-item index="3">
-                                    <img src="../../assets/logo.png" alt="">
+                                    <img src="../../assets/goods/logo.png" alt="">
                                 </el-menu-item>
                                 <el-menu-item index="4">
                                     <router-link :to="{name:'category'}" tag="div">

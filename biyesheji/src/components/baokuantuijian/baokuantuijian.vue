@@ -5,18 +5,18 @@
         <div class="tuijian">
             <div class="information">
                 <div class="im">
-                    <img src="../../assets/tuijian2.jpg" alt="" style="width:100%;">
+                    <img src="../../assets/goods/tuijian2.jpg" alt="" style="width:100%;">
                     <span style="padding:5px 0;color:red;font-size:14px;">ZERO GRAVRY</span>
                     <span style="padding:5px 10px;color:red;font-size:14px;">/ 系列 /</span>
                     <div class="hengxian"></div>
-                    <p style="padding:15px 0;font-size:13px;">19SS美式街头印花卫衣</p>
+                    <p style="padding:15px 0;font-size:13px;" ：v-model='tabledata.name'>{{tabledata.name}}</p>
                     <span style="font-size:22px;">1399.00</span>
                     <span style="font-size:8px;padding:0 10px;">RMB</span>
                     <div class="purchase">购买</div>
                     
                 </div>
                 <div class="im">
-                    <img src="../../assets/tuijian3.jpg" alt="" style="width:100%;">
+                    <img src="../../assets/goods/tuijian3.jpg" alt="" style="width:100%;">
                     <span style="padding:5px 0;color:red;font-size:14px;">ZERO GRAVRY</span>
                     <span style="padding:5px 10px;color:red;font-size:14px;">/ 系列 /</span>
                     <div class="hengxian"></div>
@@ -26,7 +26,7 @@
                     <div class="purchase">购买</div>
                 </div>
                 <div class="im">
-                    <img src="../../assets/tuijian4.jpg" alt="" style="width:100%;">
+                    <img src="../../assets/goods/tuijian4.jpg" alt="" style="width:100%;">
                     <span style="padding:5px 0;color:red;font-size:14px;">ZERO GRAVRY</span>
                     <span style="padding:5px 10px;color:red;font-size:14px;">/ 系列 /</span>
                     <div class="hengxian"></div>
@@ -44,6 +44,13 @@
 <script>
 export default {
     name:'',
+    data(){
+        return{
+            tabledata:{
+                name:'19SS美式街头印花卫衣'
+            }
+        }
+    }
 }
 </script>
 

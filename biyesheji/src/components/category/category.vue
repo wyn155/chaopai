@@ -85,7 +85,7 @@
                 
             </div>
             <div class="goods">
-                <h2>[37 件商品]</h2>
+<!--                <h2>[37 件商品]</h2>-->
                 <el-dropdown>
                     <span class="el-dropdown-link">
                         请选择商品排列方式<i class="el-icon-arrow-down el-icon--right"></i>
@@ -99,70 +99,75 @@
                 </el-dropdown>
                 <div class="xiangqing2">
                     
-                    <div style="padding:15px 30px;">
+                    <div class="da" style="padding:15px 30px;position: relative;" v-for="(item,index) in tableData" :key="index">
                         <div style="width:250px;">
-                            <img src="../../assets/yifu1.png" alt="" style="width:100%;">
+                            <img src="../../assets/goods/shop1-1.jpg" alt="" style="width:100%;">
+
                         </div>
+                        <router-link :to="{name:'shopping'}">
+                            <div class="shopcar"><i class="el-icon-shopping-cart-1"></i></div>
+                        </router-link>
                         <p style="color:red;padding:10px 15px;">STREENATIONAL TIDE</p>
-                        <p style="padding:5px 15px"><strong>19SS美式工装衬衫打印花卫衣</strong></p>
+                        <p style="padding:5px 15px"><strong>{{item.name}}</strong></p>
                         <div style="border-bottom:2px solid red;width:30px;margin:5px 15px"></div>
-                        <p style="padding:5px 15px"><strong>1699.00</strong><font size='1'>RMB</font></p>
+                        <p style="padding:5px 15px"><strong>{{item.price}}</strong><font size='1'>RMB</font></p>
                         <router-link :to="{name:'xiangqing'}">
                             <div style="width:120px;height:30px;text-align:center;line-height:30px;background:#6c33e1;border-radius:25px;color:white;margin:0 auto;">结算</div>
                         </router-link>
                     </div>
-                    <div style="padding:15px 30px;">
+                    <div style="padding:15px 30px;" v-for="(item,index) in tableData" :key="index">
                         <div style="width:250px;">
-                            <img src="../../assets/yifu1.png" alt="" style="width:100%;">
+                            <img src="../../assets/goods/shop1-1.jpg" alt="" style="width:100%;">
                         </div>
+                        <router-link :to="{name:'shopping'}">
+                            <div class="shopcar"><i class="el-icon-shopping-cart-1"></i></div>
+                        </router-link>
                         <p style="color:red;padding:10px 15px;">STREENATIONAL TIDE</p>
-                        <p style="padding:5px 15px"><strong>19SS美式工装衬衫打印花卫衣</strong></p>
+                        <p style="padding:5px 15px"><strong>{{item.name}}</strong></p>
                         <div style="border-bottom:2px solid red;width:30px;margin:5px 15px"></div>
-                        <p style="padding:5px 15px"><strong>1699.00</strong><font size='1'>RMB</font></p>
+                        <p style="padding:5px 15px"><strong>{{item.price}}</strong><font size='1'>RMB</font></p>
                         <router-link :to="{name:'xiangqing'}">
                             <div style="width:120px;height:30px;text-align:center;line-height:30px;background:#6c33e1;border-radius:25px;color:white;margin:0 auto;">结算</div>
                         </router-link>
                     </div>
-                    
-                 
                 </div>
                 <div class="xiangqing2">
-                    
-                    <div style="padding:15px 30px;">
+
+                    <div style="padding:15px 30px;" v-for="(item,index) in tableData" :key="index">
                         <div style="width:250px;">
-                            <img src="../../assets/yifu1.png" alt="" style="width:100%;">
+                            <img src="../../assets/goods/shop1-1.jpg" alt="" style="width:100%;">
                         </div>
+                        <router-link :to="{name:'shopping'}">
+                            <div class="shopcar"><i class="el-icon-shopping-cart-1"></i></div>
+                        </router-link>
                         <p style="color:red;padding:10px 15px;">STREENATIONAL TIDE</p>
-                        <p style="padding:5px 15px"><strong>19SS美式工装衬衫打印花卫衣</strong></p>
+                        <p style="padding:5px 15px"><strong>{{item.name}}</strong></p>
                         <div style="border-bottom:2px solid red;width:30px;margin:5px 15px"></div>
-                        <p style="padding:5px 15px"><strong>1699.00</strong><font size='1'>RMB</font></p>
+                        <p style="padding:5px 15px"><strong>{{item.price}}</strong><font size='1'>RMB</font></p>
                         <router-link :to="{name:'xiangqing'}">
                             <div style="width:120px;height:30px;text-align:center;line-height:30px;background:#6c33e1;border-radius:25px;color:white;margin:0 auto;">结算</div>
                         </router-link>
                     </div>
-                    <div style="padding:15px 30px;">
+                    <div style="padding:15px 30px;" v-for="(item,index) in tableData" :key="index">
                         <div style="width:250px;">
-                            <img src="../../assets/yifu1.png" alt="" style="width:100%;">
+                            <img src="../../assets/goods/shop1-1.jpg" alt="" style="width:100%;">
                         </div>
+                        <router-link :to="{name:'shopping'}">
+                            <div class="shopcar"><i class="el-icon-shopping-cart-1"></i></div>
+                        </router-link>
                         <p style="color:red;padding:10px 15px;">STREENATIONAL TIDE</p>
-                        <p style="padding:5px 15px"><strong>19SS美式工装衬衫打印花卫衣</strong></p>
+                        <p style="padding:5px 15px"><strong>{{item.name}}</strong></p>
                         <div style="border-bottom:2px solid red;width:30px;margin:5px 15px"></div>
-                        <p style="padding:5px 15px"><strong>1699.00</strong><font size='1'>RMB</font></p>
+                        <p style="padding:5px 15px"><strong>{{item.price}}</strong><font size='1'>RMB</font></p>
                         <router-link :to="{name:'xiangqing'}">
                             <div style="width:120px;height:30px;text-align:center;line-height:30px;background:#6c33e1;border-radius:25px;color:white;margin:0 auto;">结算</div>
                         </router-link>
                     </div>
+                </div>
                      
                  
-                </div>
-                <!-- 分页 -->
-                <el-pagination
-                size="medium"
-                :page-size="20"
-                :pager-count="11"
-                layout="prev, pager, next"
-                :total="1000">
-                </el-pagination>
+
+
             </div>
         </div>
 
@@ -173,18 +178,23 @@
 <script>
 export default {
     name:'',
-    mounted(){
-            let that =this
-              this.$axios.get("/category").then(res=>res.data).then(function (data) {
-                  if(data.code == 200){
+    data(){
+        return {
+            tableData:[
 
-                      alert(data.data)
-                      that.tableData = data.data
-                  }
-              }).catch(function (error) {
-                  alert(error)
-              })
-        },
+            ]
+        }
+    },
+    mounted(){
+        this.$axios.get("api/goods").then((response)=>{
+            window.console.log(response.data.msg)
+            this.tableData = response.data.msg
+            window.console.log(response.data.msg[0]['img'])
+        }).catch((error)=>{
+            window.console.log(error)
+        })
+    },
+
     
 }
 </script>
@@ -262,5 +272,15 @@ export default {
         width: 100%;
         display: flex;
         justify-content:space-between;
+    }
+    .shopcar{
+    font-size: 24px;
+    position: absolute;
+    top: 30px;
+    left:30px;
+    display: none;
+  }
+    .da:hover .shopcar{
+    display: block;
     }
 </style>

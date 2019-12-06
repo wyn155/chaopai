@@ -22,7 +22,7 @@ export default {
 <style scoped>
     .tuijian{
         margin: 0 auto;
-        background: url(../../assets/no1.png) no-repeat;
+        background: url(../../assets/goods/no1.png) no-repeat;
         width: 250px;
         height:70px;
     }

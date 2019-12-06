@@ -14,7 +14,7 @@
         <!-- <div style="padding:20px 0;">
             <Yugao></Yugao>
         </div> -->
-        
+
     </div>
 </template>
 <script>
@@ -49,11 +49,11 @@ export default {
   }
   
   .el-carousel__item:nth-child(2n) {
-    background:url('../../assets/daohang.jpg');
+    background:url('../../assets/goods/daohang.jpg');
   }
   
   .el-carousel__item:nth-child(2n+1) {
-    background:url('../../assets/daohang.jpg');
+    background:url('../../assets/goods/daohang.jpg');
   }
  
 </style>

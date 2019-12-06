@@ -16,10 +16,11 @@
             </el-carousel-item>
         </el-carousel>
         </div>
-        <div style="width:150px;height:40px;border-radius:20px;;background-color:rgb(147, 12, 236);text-align:center;line-height:40px;color:white;margin:0 auto;">
-            单品详情
-        </div>
-        
+        <router-link :to="{name:'xiangqing'}">
+            <div style="width:150px;height:40px;border-radius:20px;;background-color:rgb(147, 12, 236);text-align:center;line-height:40px;color:white;margin:0 auto;">
+                单品详情
+            </div>
+        </router-link>
         
         
     </div>
@@ -33,7 +34,7 @@ export default {
 <style scoped>
     .tuijian{
         margin: 0 auto;
-        background: url(../../assets/no1.png) no-repeat;
+        background: url(../../assets/goods/no1.png) no-repeat;
         width: 250px;
         height:70px;
     }
@@ -56,13 +57,13 @@ export default {
     }
   
   .el-carousel__item:nth-child(2n) {
-    background:url("../../assets/daohang2.jpg") no-repeat;
+    background:url("../../assets/goods/daohang2.jpg") no-repeat;
     background-size: contain;
     background-position: 100px ;
   }
   
   .el-carousel__item:nth-child(2n+1) {
-    background:url("../../assets/daohang2.jpg") no-repeat;
+    background:url("../../assets/goods/daohang2.jpg") no-repeat;
     background-size: contain;
     background-position: 100px ;
 

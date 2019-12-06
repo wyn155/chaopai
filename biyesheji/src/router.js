@@ -45,9 +45,7 @@ export default new Router({
           path:'category/xiangqing',
           name:'xiangqing',
           component:()=>import('./components/xiangqing/xiangqing.vue'),
-        },    
-           
-        
+        },
         {
             path:'series',
             name:'series',
@@ -64,21 +62,16 @@ export default new Router({
           component:()=>import('./components/logon/login.vue')
       },
       {
+          path:'person',
+          name:'person',
+          component:()=>import('./views/person/person.vue')
+      },
+          {
           path:'shopping',
           name:'shopping',
           component:()=>import('./views/shopping/shopping.vue')
       },
-      {
-          path:'person',
-          name:'person',
-          component:()=>import('./views/person/person.vue')
-      }
-      
-    
-            
-        
-       
-    
+
   ]
     }]
 })

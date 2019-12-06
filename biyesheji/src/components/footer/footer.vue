@@ -40,8 +40,8 @@
             关注我们
         </div>
         <div class="tupian">
-            <img src="../../assets/weibo.png" alt="" class="tu">
-            <img src="../../assets/weixin.png" alt="" class="tu" style="width:60px">
+            <img src="../../assets/goods/weibo.png" alt="" class="tu">
+            <img src="../../assets/goods/weixin.png" alt="" class="tu" style="width:60px">
         </div>
         <div style="text-align: center;">由Trend集团有限公司-@2019年提供技术</div>
         <!-- <div style="margin:0 auto;"><img src="../../assets/logo.png" alt="" style="text-align:center!important;"></div> -->

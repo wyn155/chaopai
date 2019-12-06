@@ -10,12 +10,12 @@
         <div class="fenbu">
             <div class="dahezi">
                 <div class="datupian">
-                    <img src="../../assets/shop1.jpg" alt="">
+                    <img src="../../assets/goods/shop1.jpg" alt="" style="height: 100%;">
                 </div>
                 <div class="xiaotupian">
-                    <img src="../../assets/shop1-1.jpg" alt="" style="padding-top:20px;">
-                    <img src="../../assets/shop1-1.jpg" alt="" style="padding-top:20px;">
-                    <img src="../../assets/shop1-1.jpg" alt="" style="padding-top:20px;"> 
+                    <img src="../../assets/goods/shop1-1.jpg" alt="" style="padding-top:20px;">
+                    <img src="../../assets/goods/shop1-1.jpg" alt="" style="padding-top:20px;">
+                    <img src="../../assets/goods/shop1-1.jpg" alt="" style="padding-top:20px;">
                 </div>
             </div>
             <div class="describe">
@@ -31,18 +31,18 @@
                     <div style="width:40px;height:40px;border-radius:50%;background-color:pink;margin:0 20px;"></div>
                 </div>
                 <div class="size">
-                    <div style="font-size:20px;line-height:40px;">尺 码</div>
-                    <div style="margin-top:5px;margin-left:20px;width:50px;height:20px;border-radius:15px;border:3px solid #ccc;text-align:center;line-height:20px;">M</div>
-                    <div style="margin-top:5px;margin-left:20px;width:50px;height:20px;border-radius:15px;border:3px solid #ccc;text-align:center;line-height:20px;">L</div>
-                    <div style="margin-top:5px;margin-left:20px;width:50px;height:20px;border-radius:15px;border:3px solid #ccc;text-align:center;line-height:20px;">XL</div>
-                    <div style="margin-top:5px;margin-left:20px;width:50px;height:20px;border-radius:15px;border:3px solid #ccc;text-align:center;line-height:20px;">XXL</div>
+                    <div style="font-size:20px;line-height:40px;width: 50px;">尺 码</div>
+                    <div style="margin-top:5px;margin-left:15px;width:50px;height:20px;border-radius:15px;border:3px solid #ccc;text-align:center;line-height:20px;">M</div>
+                    <div style="margin-top:5px;margin-left:15px;width:50px;height:20px;border-radius:15px;border:3px solid #ccc;text-align:center;line-height:20px;">L</div>
+                    <div style="margin-top:5px;margin-left:15px;width:50px;height:20px;border-radius:15px;border:3px solid #ccc;text-align:center;line-height:20px;">XL</div>
+                    <div style="margin-top:5px;margin-left:15px;width:50px;height:20px;border-radius:15px;border:3px solid #ccc;text-align:center;line-height:20px;">XXL</div>
                 </div>
                 <div class="num">
                     <div style="font-size:20px;line-height:40px;padding-right:20px;">数 量</div>
                     <el-input-number v-model="num" @change="handleChange" size="small" style="margin-top:5px;" :min="1"></el-input-number>
                     <div style="line-height:40px;padding-left:20px;">库存8件</div>
                 </div>
-                <div style="margin-top:20px;width:160px;height:50px;border-radius:20px;text-align:center;line-height:50px;color:white;background-color:#6c33e1">立即购买</div>
+                <div style="margin-top:10px;width:160px;height:50px;border-radius:20px;text-align:center;line-height:50px;color:white;background-color:#6c33e1">立即购买</div>
                
             </div>
         </div>
@@ -75,13 +75,14 @@ export default {
         justify-content:space-between;
     }
     .datupian{
-        padding-top: 50px; 
+        padding-top: 50px;
+        height: 600px;
     }
     .xiaotupian{
         
         width:163px;
         height:auto;
-        margin-top: 185px;
+        margin-top: 90px;
         margin-left: 20px;
         
     }
@@ -108,19 +109,19 @@ export default {
         font-size: 14px;
     }
     .yanse{
-        margin:80px 0 20px;
+        margin:20px 0 20px;
         display: flex;
         justify-content: flex-start;
     }
     .size{
         display: flex;
         justify-content: flex-start;
-        padding:30px 20px 30px 0;
+        padding:10px 20px 30px 0;
         
     }
     .num{
         display: flex;
         justify-content: flex-start;
-        padding:30px 20px 30px 0;
+        padding:15px 20px 30px 0;
     }
 </style>

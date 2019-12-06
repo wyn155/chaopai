@@ -65,9 +65,9 @@
                       <el-radio label="女"></el-radio>
                     </el-radio-group>
                   </el-form-item>
-                  
-            
-                  
+
+
+
                 </el-form>
             </div>
         </div>

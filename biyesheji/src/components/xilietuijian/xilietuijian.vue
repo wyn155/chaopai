@@ -15,7 +15,7 @@
         </div>
         <div class="contain">
             <div class="hezi">
-                <img src="../../assets/tuijian1.png" alt="" style="position:absolute;left:20px;top:-100px;">
+                <img src="../../assets/goods/tuijian1.png" alt="" style="position:absolute;left:20px;top:-100px;">
             </div>
             <div class="xiangqing">
                 <h3>19SS初代多色宗教拼接卫衣</h3>
@@ -28,10 +28,11 @@
                     <div style="width:50px;height:20px;border-radius:15px;border:2px solid darkgray;text-align:center;display:inline-block;">纯色</div>
                     <div style="width:50px;height:20px;border-radius:15px;border:2px solid darkgray;text-align:center;display:inline-block;">春夏</div>
                 </div>
-                <div class="chakan">
-                    查看详情
-                </div>
-                
+                <router-link :to="{name:'xiangqing'}">
+                    <div class="chakan">
+                        查看详情
+                    </div>
+                </router-link>
             </div>
         </div>
         
@@ -52,7 +53,7 @@ export default {
     }
     .tuijian{
         margin: 0 auto;
-        background: url(../../assets/no1.png) no-repeat;
+        background: url(../../assets/goods/no1.png) no-repeat;
         width: 250px;
         height:70px;
     }

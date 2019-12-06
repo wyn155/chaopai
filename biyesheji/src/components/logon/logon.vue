@@ -97,7 +97,7 @@
     .login-box{
         width: 100%;
         height: 750px;
-        background: url("../../assets/bj.png") no-repeat;
+        background: url("../../assets/goods/bj.png") no-repeat;
         background-size: cover;
         background-position: 50%;
         position: relative;
